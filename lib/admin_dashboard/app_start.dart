@@ -8,8 +8,7 @@ class AppStart extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-
-      //   home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const HomeView(),
     );
   }
 }
