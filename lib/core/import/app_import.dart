@@ -24,7 +24,7 @@ part '../../admin_dashboard/app_start.dart';
 // ! ************************ Core **************************
 
 part "../widgets/adaptive_layout.dart";
-
+part "../theme/app_theme.dart";
 // ?  ************************ features **************************
 //  ************************ Checkout **************************
 
