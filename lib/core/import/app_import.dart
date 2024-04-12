@@ -40,6 +40,8 @@ part "../../features/home/data/models/m_drawer_item.dart";
 part "../../features/home/presentation/view/home/widgets/drawer_item_list_view.dart";
 part "../../features/home/presentation/view/home/widgets/active_and_inactive_item.dart";
 part "../../features/home/presentation/view/home/widgets/custom_drawer.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses_header.dart";
 
 //  ************************ View **************************
 
