@@ -28,6 +28,7 @@ part '../../admin_dashboard/app_start.dart';
 part "../widgets/adaptive_layout/adaptive_layout.dart";
 part "../theme/app_theme.dart";
 part "../widgets/user_info_list_title/user_info_list_title.dart";
+part '../widgets/drawer_item/drawer_item.dart';
 
 // ?  ************************ features **************************
 //  ************************ Checkout **************************
@@ -35,6 +36,7 @@ part "../widgets/user_info_list_title/user_info_list_title.dart";
 //  ************************ Home **************************
 part "../../features/home/presentation/view/home/home_view.dart";
 part "../../features/home/presentation/view/home/desktop/desktop_layout.dart";
+part "../../features/home/data/models/m_drawer_item.dart";
 
 //  ************************ View **************************
 
