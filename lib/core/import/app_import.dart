@@ -37,6 +37,8 @@ part '../widgets/drawer_item/drawer_item.dart';
 part "../../features/home/presentation/view/home/home_view.dart";
 part "../../features/home/presentation/view/home/desktop/desktop_layout.dart";
 part "../../features/home/data/models/m_drawer_item.dart";
+part "../../features/home/presentation/view/home/widgets/drawer_item_list_view.dart";
+part "../../features/home/presentation/view/home/widgets/active_and_inactive_item.dart";
 
 //  ************************ View **************************
 
