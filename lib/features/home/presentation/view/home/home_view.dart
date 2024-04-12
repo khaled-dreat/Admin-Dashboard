@@ -9,7 +9,7 @@ class HomeView extends StatelessWidget {
       body: AdaptiveLayout(
           mbileLayoutView: (context) => Text("mbileLayoutView"),
           tabletLayoutView: (context) => Text("tabletLayoutView"),
-          decktobLayoutView: (context) => Text("decktobLayoutView")),
+          decktobLayoutView: (context) => DashboardDesktopLayout()),
     );
   }
 }
