@@ -34,6 +34,7 @@ part "../widgets/user_info_list_title/user_info_list_title.dart";
 
 //  ************************ Home **************************
 part "../../features/home/presentation/view/home/home_view.dart";
+part "../../features/home/presentation/view/home/desktop/desktop_layout.dart";
 
 //  ************************ View **************************
 
