@@ -14,8 +14,53 @@ class DashboardDesktopLayout extends StatelessWidget {
         Expanded(
             flex: 2,
             child: Column(
-              children: [Expanded(child: AllExpenses())],
+              children: [
+                AllExpenses(),
+                SizedBox(
+                  height: 16,
+                ),
+                QuickInvoice()
+              ],
             ))
+      ],
+    );
+  }
+}
+
+class QuickInvoice extends StatelessWidget {
+  const QuickInvoice({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomBackgroundContainer(
+      child: Column(
+        children: [QuickInvoiceHeader()],
+      ),
+    );
+  }
+}
+
+class QuickInvoiceHeader extends StatelessWidget {
+  const QuickInvoiceHeader({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Text(
+          "Quick invoice",
+          style: AppStyles.styleSemiBold20(context),
+        ),
+        Container(
+          width: 48,
+          height: 48,
+          decoration:
+              ShapeDecoration(color: Color(0xFFFAFAFA), shape: OvalBorder()),
+          child: Icon(
+            Icons.add,
+            color: Color(0xff4EB7F2),
+          ),
+        )
       ],
     );
   }

@@ -43,6 +43,10 @@ part "../../features/home/presentation/view/home/widgets/custom_drawer.dart";
 part "../../features/home/presentation/view/home/widgets/all_expenses.dart";
 part "../../features/home/presentation/view/home/widgets/all_expenses_header.dart";
 part "../../features/home/data/models/m_all_expensess_item.dart";
+part "../../features/home/presentation/view/home/widgets/inactive_active_all_expensess_item.dart";
+part "../../features/home/presentation/view/home/widgets/all_expensess_item.dart";
+part "../../features/home/presentation/view/home/widgets/all_expensess_item_list_view.dart";
+part "../widgets/custom_background_container/custom_background_container.dart";
 
 //  ************************ View **************************
 
