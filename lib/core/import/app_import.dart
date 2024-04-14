@@ -56,6 +56,7 @@ part "../widgets/custom_button/custom_button.dart";
 part "../../features/home/presentation/view/home/widgets/quick_invoice/quick_invoice_form.dart";
 part "../../features/home/presentation/view/home/widgets/quick_invoice/title_text_field.dart";
 part "../../features/home/presentation/view/home/widgets/quick_invoice/custom_text_form.dart";
+part "../../features/home/presentation/view/home/widgets/all_expensess_and_quick_invoice_section.dart";
 
 //  ************************ View **************************
 
