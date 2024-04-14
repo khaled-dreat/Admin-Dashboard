@@ -47,6 +47,10 @@ part "../../features/home/presentation/view/home/widgets/inactive_active_all_exp
 part "../../features/home/presentation/view/home/widgets/all_expensess_item.dart";
 part "../../features/home/presentation/view/home/widgets/all_expensess_item_list_view.dart";
 part "../widgets/custom_background_container/custom_background_container.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice_header.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice.dart";
+part "../../features/home/data/models/m_user_info.dart";
+part "../../features/home/presentation/view/home/widgets/latest_transcton_list_view.dart";
 
 //  ************************ View **************************
 
