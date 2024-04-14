@@ -37,21 +37,25 @@ part '../widgets/drawer_item/drawer_item.dart';
 part "../../features/home/presentation/view/home/home_view.dart";
 part "../../features/home/presentation/view/home/desktop/desktop_layout.dart";
 part "../../features/home/data/models/m_drawer_item.dart";
-part "../../features/home/presentation/view/home/widgets/drawer_item_list_view.dart";
-part "../../features/home/presentation/view/home/widgets/active_and_inactive_item.dart";
-part "../../features/home/presentation/view/home/widgets/custom_drawer.dart";
-part "../../features/home/presentation/view/home/widgets/all_expenses.dart";
-part "../../features/home/presentation/view/home/widgets/all_expenses_header.dart";
+part "../../features/home/presentation/view/home/widgets/drawer/drawer_item_list_view.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/active_and_inactive_item.dart";
+part "../../features/home/presentation/view/home/widgets/drawer/custom_drawer.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses/all_expenses.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses/all_expenses_header.dart";
 part "../../features/home/data/models/m_all_expensess_item.dart";
-part "../../features/home/presentation/view/home/widgets/inactive_active_all_expensess_item.dart";
-part "../../features/home/presentation/view/home/widgets/all_expensess_item.dart";
-part "../../features/home/presentation/view/home/widgets/all_expensess_item_list_view.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses/inactive_active_all_expensess_item.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses/all_expensess_item.dart";
+part "../../features/home/presentation/view/home/widgets/all_expenses/all_expensess_item_list_view.dart";
 part "../widgets/custom_background_container/custom_background_container.dart";
-part "../../features/home/presentation/view/home/widgets/quick_invoice_header.dart";
-part "../../features/home/presentation/view/home/widgets/quick_invoice.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/quick_invoice_header.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/quick_invoice.dart";
 part "../../features/home/data/models/m_user_info.dart";
-part "../../features/home/presentation/view/home/widgets/latest_transcton_list_view.dart";
-part "../../features/home/presentation/view/home/widgets/latest_transcton.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/latest_transcton_list_view.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/latest_transcton.dart";
+part "../widgets/custom_button/custom_button.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/quick_invoice_form.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/title_text_field.dart";
+part "../../features/home/presentation/view/home/widgets/quick_invoice/custom_text_form.dart";
 
 //  ************************ View **************************
 

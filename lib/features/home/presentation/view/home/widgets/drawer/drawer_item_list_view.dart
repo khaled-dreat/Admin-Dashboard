@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class DrawerItemListView extends StatefulWidget {
   const DrawerItemListView({

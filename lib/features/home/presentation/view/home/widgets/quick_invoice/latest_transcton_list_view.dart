@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class LatestTransctonListView extends StatelessWidget {
   const LatestTransctonListView({super.key});
@@ -30,23 +30,6 @@ class LatestTransctonListView extends StatelessWidget {
               ),
             )
             .toList(),
-      ),
-    );
-
-    SizedBox(
-      height: 500,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: items.length,
-        itemBuilder: (context, index) {
-          return SizedBox(
-            child: IntrinsicWidth(
-              child: UserInfoListTitle(
-                userInfoModel: items.elementAt(index),
-              ),
-            ),
-          );
-        },
       ),
     );
   }

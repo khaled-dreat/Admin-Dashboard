@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class LatestTranscton extends StatelessWidget {
   const LatestTranscton({super.key});

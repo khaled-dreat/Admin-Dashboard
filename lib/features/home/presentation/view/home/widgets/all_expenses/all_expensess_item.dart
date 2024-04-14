@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class AllExpensessItem extends StatelessWidget {
   const AllExpensessItem(

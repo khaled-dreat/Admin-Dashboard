@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class CustomDrawer extends StatelessWidget {
   const CustomDrawer({super.key});

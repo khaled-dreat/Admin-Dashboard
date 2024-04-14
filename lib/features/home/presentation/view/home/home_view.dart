@@ -6,11 +6,11 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFFF7F9FA),
+      backgroundColor: const Color(0xFFF7F9FA),
       body: AdaptiveLayout(
           mbileLayoutView: (context) => Text("mbileLayoutView"),
           tabletLayoutView: (context) => Text("tabletLayoutView"),
-          decktobLayoutView: (context) => DashboardDesktopLayout()),
+          decktobLayoutView: (context) => const DashboardDesktopLayout()),
     );
   }
 }

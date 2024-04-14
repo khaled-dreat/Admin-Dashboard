@@ -1,4 +1,4 @@
-part of "../../../../../../core/import/app_import.dart";
+part of "../../../../../../../core/import/app_import.dart";
 
 class AllExpenses extends StatelessWidget {
   const AllExpenses({super.key});
