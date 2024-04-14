@@ -51,6 +51,7 @@ part "../../features/home/presentation/view/home/widgets/quick_invoice_header.da
 part "../../features/home/presentation/view/home/widgets/quick_invoice.dart";
 part "../../features/home/data/models/m_user_info.dart";
 part "../../features/home/presentation/view/home/widgets/latest_transcton_list_view.dart";
+part "../../features/home/presentation/view/home/widgets/latest_transcton.dart";
 
 //  ************************ View **************************
 
