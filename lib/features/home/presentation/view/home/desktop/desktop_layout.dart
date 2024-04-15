@@ -16,7 +16,7 @@ class DashboardDesktopLayout extends StatelessWidget {
           width: 24,
         ),
         Expanded(child: MyCardPageView()),
-        CustomDotIndicator(isActive: true)
+        DotIndicator()
       ],
     );
   }
