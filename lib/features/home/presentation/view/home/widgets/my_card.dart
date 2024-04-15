@@ -10,6 +10,7 @@ class MyCard extends StatelessWidget {
       child: Container(
         decoration: ShapeDecoration(
             image: DecorationImage(
+                fit: BoxFit.fill,
                 image: AssetImage(AppImages.imagesCardBackground)),
             color: Color(0xFF4EB7F2),
             shape: RoundedRectangleBorder(
@@ -53,6 +54,21 @@ class MyCard extends StatelessWidget {
             )
           ],
         ),
+      ),
+    );
+  }
+}
+
+class MyCardPageView extends StatelessWidget {
+  const MyCardPageView({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return ExpandablePageView(
+      scrollDirection: Axis.horizontal,
+      children: List.generate(
+        3,
+        (index) => MyCard(),
       ),
     );
   }

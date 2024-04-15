@@ -14,6 +14,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 
 //  ************************ AS & SHOW **************************
 
+import 'package:expandable_page_view/expandable_page_view.dart'
+    show ExpandablePageView;
 import 'dart:io' show Directory, Platform, SocketException;
 import 'dart:developer' as dev;
 import 'dart:convert' as convert;
