@@ -1,3 +1,4 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 part of "../../../../../../core/import/app_import.dart";
 
 class MyCard extends StatelessWidget {
@@ -59,12 +60,32 @@ class MyCard extends StatelessWidget {
   }
 }
 
-class MyCardSection extends StatelessWidget {
+class MyCardSection extends StatefulWidget {
   const MyCardSection({super.key});
+
+  @override
+  State<MyCardSection> createState() => _MyCardSectionState();
+}
+
+class _MyCardSectionState extends State<MyCardSection> {
+  late PageController pageController;
+  int currentPageIndex = 0;
+  @override
+  void initState() {
+    pageController = PageController();
+    pageController.addListener(
+      () {
+        currentPageIndex = pageController.page!.round();
+        setState(() {});
+      },
+    );
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         SizedBox(
           width: 420,
@@ -73,19 +94,26 @@ class MyCardSection extends StatelessWidget {
             style: AppStyles.styleSemiBold20(context),
           ),
         ),
-        SizedBox(
+        const SizedBox(
           height: 20,
         ),
-        MyCardPageView(),
-        DotIndicator()
+        MyCardPageView(
+          controller: pageController,
+        ),
+        DotIndicator(
+          currentPageIndex: currentPageIndex,
+        )
       ],
     );
   }
 }
 
 class DotIndicator extends StatelessWidget {
-  const DotIndicator({super.key});
-
+  const DotIndicator({
+    super.key,
+    required this.currentPageIndex,
+  });
+  final int currentPageIndex;
   @override
   Widget build(BuildContext context) {
     return Row(
@@ -93,7 +121,7 @@ class DotIndicator extends StatelessWidget {
         3,
         (index) => Padding(
           padding: const EdgeInsets.only(right: 6),
-          child: CustomDotIndicator(isActive: false),
+          child: CustomDotIndicator(isActive: currentPageIndex == index),
         ),
       ),
     );
@@ -118,11 +146,12 @@ class CustomDotIndicator extends StatelessWidget {
 }
 
 class MyCardPageView extends StatelessWidget {
-  const MyCardPageView({super.key});
-
+  const MyCardPageView({super.key, required this.controller});
+  final PageController controller;
   @override
   Widget build(BuildContext context) {
     return ExpandablePageView(
+      controller: controller,
       scrollDirection: Axis.horizontal,
       children: List.generate(
         3,
