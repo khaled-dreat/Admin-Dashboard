@@ -6,6 +6,7 @@ class TransctionHistory extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const TransctionHistoryHeader(),
         const SizedBox(
@@ -13,11 +14,34 @@ class TransctionHistory extends StatelessWidget {
         ),
         Text(
           "13 April 2022",
-          style: AppStyles.styleRegular16(context),
+          style: AppStyles.styleRegular16(context)
+              .copyWith(color: Color(0XFFAAAAAA)),
+        ),
+        const SizedBox(
+          height: 16,
         ),
         const TransctionHistoryListView()
       ],
     );
+  }
+}
+
+class MyCardAndTransctionHistorySection extends StatelessWidget {
+  const MyCardAndTransctionHistorySection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return CustomBackgroundContainer(
+        child: Column(
+      children: [
+        MyCardSection(),
+        Divider(
+          height: 40,
+          color: Color(0xFFF1F1F1),
+        ),
+        TransctionHistory()
+      ],
+    ));
   }
 }
 

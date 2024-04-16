@@ -40,6 +40,9 @@ class _MyCardSectionState extends State<MyCardSection> {
         MyCardPageView(
           controller: pageController,
         ),
+        const SizedBox(
+          height: 20,
+        ),
         DotIndicator(
           currentPageIndex: currentPageIndex,
         )
