@@ -63,10 +63,13 @@ part "../../features/home/presentation/view/home/widgets/my_card/my_card.dart";
 part "../../features/home/presentation/view/home/widgets/my_card/my_card_page_view.dart";
 part "../../features/home/presentation/view/home/widgets/my_card/custom_dot_indicator.dart";
 part "../../features/home/presentation/view/home/widgets/my_card/dot_indicator.dart";
-part "../../features/home/presentation/view/home/widgets/my_card_section.dart";
-part "../../features/home/presentation/view/home/widgets/transction_history.dart";
+part "../../features/home/presentation/view/home/widgets/my_card/my_card_section.dart";
+part "../../features/home/presentation/view/home/widgets/transction/transction_history.dart";
 part "../../features/home/data/models/m_transctio.dart";
-
+part "../../features/home/presentation/view/home/widgets/transction/transction_history_header.dart";
+part "../../features/home/presentation/view/home/widgets/transction/transction_history_listview.dart";
+part "../../features/home/presentation/view/home/widgets/transction/transction_item.dart";
+part "../../features/home/presentation/view/home/widgets/my_card_and_transction_history_section.dart";
 //  ************************ View **************************
 
 //  ************************ Products Details **************************
