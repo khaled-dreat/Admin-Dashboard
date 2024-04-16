@@ -64,6 +64,8 @@ part "../../features/home/presentation/view/home/widgets/my_card/my_card_page_vi
 part "../../features/home/presentation/view/home/widgets/my_card/custom_dot_indicator.dart";
 part "../../features/home/presentation/view/home/widgets/my_card/dot_indicator.dart";
 part "../../features/home/presentation/view/home/widgets/my_card_section.dart";
+part "../../features/home/presentation/view/home/widgets/transction_history.dart";
+
 //  ************************ View **************************
 
 //  ************************ Products Details **************************
