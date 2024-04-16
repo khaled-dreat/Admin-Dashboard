@@ -59,6 +59,30 @@ class MyCard extends StatelessWidget {
   }
 }
 
+class MyCardSection extends StatelessWidget {
+  const MyCardSection({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        SizedBox(
+          width: 420,
+          child: Text(
+            "My card",
+            style: AppStyles.styleSemiBold20(context),
+          ),
+        ),
+        SizedBox(
+          height: 20,
+        ),
+        MyCardPageView(),
+        DotIndicator()
+      ],
+    );
+  }
+}
+
 class DotIndicator extends StatelessWidget {
   const DotIndicator({super.key});
 

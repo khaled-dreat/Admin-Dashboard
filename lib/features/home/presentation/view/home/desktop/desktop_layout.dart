@@ -6,6 +6,7 @@ class DashboardDesktopLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Expanded(child: CustomDrawer()),
         SizedBox(
@@ -15,8 +16,7 @@ class DashboardDesktopLayout extends StatelessWidget {
         SizedBox(
           width: 24,
         ),
-        Expanded(child: MyCardPageView()),
-        DotIndicator()
+        Expanded(child: MyCardSection())
       ],
     );
   }
