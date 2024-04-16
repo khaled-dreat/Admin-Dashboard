@@ -65,6 +65,7 @@ part "../../features/home/presentation/view/home/widgets/my_card/custom_dot_indi
 part "../../features/home/presentation/view/home/widgets/my_card/dot_indicator.dart";
 part "../../features/home/presentation/view/home/widgets/my_card_section.dart";
 part "../../features/home/presentation/view/home/widgets/transction_history.dart";
+part "../../features/home/data/models/m_transctio.dart";
 
 //  ************************ View **************************
 
