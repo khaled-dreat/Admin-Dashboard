@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import 'package:admin_dashboard/core/constant/app_image.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/cupertino.dart';
@@ -74,6 +75,9 @@ part "../../features/home/presentation/view/home/widgets/transction/transction_i
 part "../../features/home/presentation/view/home/widgets/my_card_and_transction_history_section.dart";
 part "../../features/home/presentation/view/home/widgets/income_section.dart";
 part "../../features/home/data/models/item_details_model.dart";
+part "../../features/home/presentation/view/home/tablet/tablet_layout.dart";
+
+
 //  ************************ View **************************
 
 //  ************************ Products Details **************************
