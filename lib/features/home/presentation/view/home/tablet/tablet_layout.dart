@@ -6,7 +6,10 @@ class DashboardTabletLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Row(
-      children: [CustomDrawer(), AllExpensessAndQuickInvoiceSection()],
+      children: [
+        Expanded(child: CustomDrawer()),
+        Expanded(child: AllExpensessAndQuickInvoiceSection()),
+      ],
     );
   }
 }
