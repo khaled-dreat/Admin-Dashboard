@@ -6,6 +6,8 @@ class CustomDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      width: MediaQuery.sizeOf(context).width * 0.7,
+      color: const Color.fromRGBO(255, 255, 255, 1),
       child: const CustomScrollView(
         slivers: [
           SliverToBoxAdapter(
