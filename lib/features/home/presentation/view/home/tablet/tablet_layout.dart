@@ -5,13 +5,29 @@ class DashboardTabletLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return const Row(
       children: [
         Expanded(child: CustomDrawer()),
         SizedBox(
           width: 32,
         ),
-        Expanded(flex: 3, child: AllExpensessAndQuickInvoiceSection()),
+        Expanded(
+            flex: 3,
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  AllExpensessAndQuickInvoiceSection(),
+                  SizedBox(
+                    height: 24,
+                  ),
+                  MyCardAndTransctionHistorySection(),
+                  SizedBox(
+                    height: 24,
+                  ),
+                  IncomeSection()
+                ],
+              ),
+            )),
         SizedBox(
           width: 32,
         ),
