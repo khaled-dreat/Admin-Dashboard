@@ -76,7 +76,7 @@ part "../../features/home/presentation/view/home/widgets/my_card_and_transction_
 part "../../features/home/presentation/view/home/widgets/income_section.dart";
 part "../../features/home/data/models/item_details_model.dart";
 part "../../features/home/presentation/view/home/tablet/tablet_layout.dart";
-
+part "../../features/home/presentation/view/home/mobile/mobile_layout.dart";
 
 //  ************************ View **************************
 

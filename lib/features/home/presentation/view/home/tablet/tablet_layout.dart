@@ -11,23 +11,7 @@ class DashboardTabletLayout extends StatelessWidget {
         SizedBox(
           width: 32,
         ),
-        Expanded(
-            flex: 3,
-            child: SingleChildScrollView(
-              child: Column(
-                children: [
-                  AllExpensessAndQuickInvoiceSection(),
-                  SizedBox(
-                    height: 24,
-                  ),
-                  MyCardAndTransctionHistorySection(),
-                  SizedBox(
-                    height: 24,
-                  ),
-                  IncomeSection()
-                ],
-              ),
-            )),
+        Expanded(flex: 3, child: DashboardMobileLayout()),
         SizedBox(
           width: 32,
         ),
