@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:admin_dashboard/core/constant/app_image.dart';
+import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -20,6 +21,8 @@ import 'dart:io' show Directory, Platform, SocketException;
 import 'dart:developer' as dev;
 import 'dart:convert' as convert;
 import 'package:path/path.dart' as path;
+
+import '../../features/onBord/body.dart';
 // import 'package:validators/validators.dart' as validators;
 
 //  ************************ App Start **************************
@@ -70,6 +73,8 @@ part "../../features/home/presentation/view/home/widgets/transction/transction_h
 part "../../features/home/presentation/view/home/widgets/transction/transction_history_listview.dart";
 part "../../features/home/presentation/view/home/widgets/transction/transction_item.dart";
 part "../../features/home/presentation/view/home/widgets/my_card_and_transction_history_section.dart";
+part "../../features/home/presentation/view/home/widgets/income_section.dart";
+part "../../features/home/data/models/item_details_model.dart";
 //  ************************ View **************************
 
 //  ************************ Products Details **************************
