@@ -9,7 +9,7 @@ class HomeView extends StatelessWidget {
       backgroundColor: const Color(0xFFF7F9FA),
       body: AdaptiveLayout(
           mbileLayoutView: (context) => Text("mbileLayoutView"),
-          tabletLayoutView: (context) => Text("tabletLayoutView"),
+          tabletLayoutView: (context) => const DashboardTabletLayout(),
           decktobLayoutView: (context) => const DashboardDesktopLayout()),
     );
   }
