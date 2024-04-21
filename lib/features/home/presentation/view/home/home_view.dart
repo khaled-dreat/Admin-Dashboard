@@ -8,7 +8,7 @@ class HomeView extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF7F9FA),
       body: AdaptiveLayout(
-          mbileLayoutView: (context) => Text("mbileLayoutView"),
+          mbileLayoutView: (context) => const DashboardMobileLayout(),
           tabletLayoutView: (context) => const DashboardTabletLayout(),
           decktobLayoutView: (context) => const DashboardDesktopLayout()),
     );
