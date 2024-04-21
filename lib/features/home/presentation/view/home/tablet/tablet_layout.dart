@@ -8,7 +8,13 @@ class DashboardTabletLayout extends StatelessWidget {
     return Row(
       children: [
         Expanded(child: CustomDrawer()),
-        Expanded(child: AllExpensessAndQuickInvoiceSection()),
+        SizedBox(
+          width: 32,
+        ),
+        Expanded(flex: 3, child: AllExpensessAndQuickInvoiceSection()),
+        SizedBox(
+          width: 32,
+        ),
       ],
     );
   }
