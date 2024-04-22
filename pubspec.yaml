@@ -44,6 +44,7 @@ dependencies:
   flutter_svg: ^2.0.10+1
   expandable_page_view: ^1.0.17
   fl_chart: ^0.67.0
+  device_preview: ^1.1.0
 
 dev_dependencies:
   flutter_test:
