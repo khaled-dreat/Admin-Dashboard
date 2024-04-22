@@ -7,18 +7,30 @@ class IncomeSection extends StatelessWidget {
   Widget build(BuildContext context) {
     return const CustomBackgroundContainer(
       child: Column(
-        children: [
-          HeaderIncomeSection(),
-          Row(
+        children: [HeaderIncomeSection(), IncomSectionBody()],
+      ),
+    );
+  }
+}
+
+class IncomSectionBody extends StatelessWidget {
+  const IncomSectionBody({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    double width = MediaQuery.sizeOf(context).width;
+
+    return width >= 1200 && width < 1750
+        ? SizedBox()
+        : Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Expanded(child: IncomeChart()),
-              Expanded(child: IncomeDetails())
+              Expanded(flex: 2, child: IncomeDetails())
             ],
-          )
-        ],
-      ),
-    );
+          );
   }
 }
 
@@ -36,13 +48,21 @@ class IncomeDetails extends StatelessWidget {
   ];
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      shrinkWrap: true,
-      itemCount: items.length,
-      itemBuilder: (context, index) {
-        return ItemDetails(itemDetailsModel: items[index]);
-      },
+    return Column(
+      children: items
+          .map(
+            (e) => ItemDetails(itemDetailsModel: e),
+          )
+          .toList(),
     );
+
+//   ListView.builder(
+//     shrinkWrap: true,
+//     itemCount: items.length,
+//     itemBuilder: (context, index) {
+//       return ItemDetails(itemDetailsModel: items[index]);
+//     },
+//   );
   }
 }
 
