@@ -2,7 +2,7 @@
 
 A dashboard application developed using Flutter. The application is distinguished by its ability to adapt to different devices, providing a smooth user experience that is compatible with any device.
 
-### Features"
+### Features:
 
 - **Designing responsive user interfaces.**
 - **Adaptive design techniques.**
