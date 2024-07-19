@@ -4,7 +4,7 @@ A dashboard application developed using Flutter. The application is distinguishe
 
 ### Key Features
 
-- **Designing** responsive user interfaces.
+- **Designing responsive user interfaces.**
  **Adaptive design techniques.
  **Flutter widgets for responsive interfaces.
  **Dynamic expansion and layouts.
